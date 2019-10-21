@@ -1,0 +1,23 @@
+(:action watering
+       :parameters  (?w ?s)
+       :precondition (and  (water ?w) (seed ?s) )
+       :effect (and 
+		     (not )))
+		     
+	(:action supling
+       :parameters  (?w ?s)
+       :precondition (and  (water ?w) (seed ?s) )
+       :effect (and 
+		     (not )))
+	
+	(:action nurshing
+       :parameters  (?w ?s)
+       :precondition (and  (water ?w) (seed ?s) )
+       :effect (and 
+		     (not )))	     
+	
+	(:action grown_paddy
+       :parameters  (?w ?s)
+       :precondition (and  (water ?w) (seed ?s) )
+       :effect (and 
+		     (not )))
